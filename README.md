@@ -1,6 +1,7 @@
 readme
 ======
 
- * testA
- * testB
+ * [FeatureA](FeatureA.md)
+ * [FeatureB](FeatureB.md)
+ 
 
