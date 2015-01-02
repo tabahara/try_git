@@ -10,6 +10,6 @@ readme
 | short | none | long|
 
 
-- [ ] item1
-- [x] item2
+ [ ] item1
+ [x] item2
 
