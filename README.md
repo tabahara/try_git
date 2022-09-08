@@ -20,7 +20,7 @@ classDiagram
     class A {
         <<interface>>
     }
-    link A "https://www.google.com" "tooltip"
+    link A "https://www.google.com"
     class B
     class C
 
@@ -40,3 +40,17 @@ classDiagram
     A <|-- B
     A <|-- C
 ```
+
+# theme: neutral
+```mermaid
+%%{init: {'theme': 'neutral'}}%%
+sequenceDiagram
+actor User
+participant ModuleA as Module A
+participant ModuelB as Module B
+
+User ->> ModuleA: message1
+User ->> ModuleB: message2
+
+```
+
