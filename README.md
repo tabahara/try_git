@@ -13,3 +13,10 @@ readme
 - [ ] item1
 - [x] item2
 
+```mermaid
+%%{init: {'theme':'forest'}}%%
+classDiagram
+    class A
+    class B
+    A <|-- B
+```
